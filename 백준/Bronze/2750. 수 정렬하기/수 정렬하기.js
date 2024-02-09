@@ -5,7 +5,6 @@ const getInput = (filePath) => {
     return fs
         .readFileSync(filePath)
         .toString()
-        .trim()
         .split(/\n/);
     }
 
